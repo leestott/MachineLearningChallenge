@@ -7,8 +7,12 @@ The data set is available at https://challenge.blob.core.windows.net/challengefi
 To Download simply download via the url or run the following command on the DSVM 
 
 curl -O https://challenge.blob.core.windows.net/challengefiles/gear_images.zip
-
 unzip *.zip
+
+Or in windows powershell;
+
+wget "https://challenge.blob.core.windows.net/challengefiles/gear_images.zip" -OutFile gear_images.zip
+unzip gear_images.zip
 
 ## Running Notebooks 
 
