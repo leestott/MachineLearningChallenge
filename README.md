@@ -22,3 +22,23 @@ This repo is available as Azure Notebooks [Here](https://notebooks.azure.com/Lee
 
 Running the Notebook on Azure Data Science Virtual Machine 
 See [Here](https://blogs.msdn.microsoft.com/uk_faculty_connection/2018/12/10/microsoft-azure-notebooks-and-additional-compute-capacity-via-connecting-to-data-science-vms/)
+
+## Running Notebooks on Windows Desktop 
+
+Make your way over to python.org, download and install the latest version (3.7 as of this writing) and make sure that wherever you install it, the directory containing python.exe is in your system PATH environment variable. I like to install it in the root of my C: drive, e.g. C:\Python37, so my PATH contains that directory.
+Once that's installed, you'll want to create a virtual environment, a lightweight, disposable, isolated python installation where you can experiment and install 3rd party libraries without affecting your "main" installation. To do this, open up a Powershell window, and enter the following commands (where "myenv" is the name of the virtualenv we're going to create, you can use any name you like for this):
+
+Open a Powershell windows 
+
+PS C:\> python -m venv myenv
+PS C:\> myenv\Scripts\activate
+
+Then, let's install jupyter and start up a notebook:
+PS C:\> pip install jupyter
+PS C:\> jupyter notebook
+
+Incidentally, if you get a warning about upgrading pip, make sure to use the following incantation to upgrade (to prevent an issue on windows where pip is unable to upgrade its own executable in-place):
+PS C:\> python -m pip install --upgrade pip
+
+Advantages: Uses "pure" python, official tools, and no external dependencies. Well supported, with plenty of online documentation and support communities.
+Disadvantages: While many popular data analysis or scientific python libraries can be installed by pip on windows (including Pandas and Matplotlib), some (for example SciPy) require a C compiler and the presence of 3rd party C libraries on the system which are difficult to install on Windows.
