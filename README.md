@@ -48,3 +48,7 @@ PS C:\> python -m pip install --upgrade pip
 Advantages: Uses "pure" python, official tools, and no external dependencies. Well supported, with plenty of online documentation and support communities.
 
 Disadvantages: While many popular data analysis or scientific python libraries can be installed by pip on windows (including Pandas and Matplotlib), some (for example SciPy) require a C compiler and the presence of 3rd party C libraries on the system which are difficult to install on Windows.
+
+## Working with Jupyter Notebooks in Visual Studio Code
+
+See [https://code.visualstudio.com/docs/python/jupyter-support](https://code.visualstudio.com/docs/python/jupyter-support)
