@@ -25,6 +25,8 @@ See [Here](https://blogs.msdn.microsoft.com/uk_faculty_connection/2018/12/10/mic
 
 ## Running Notebooks on Windows Desktop 
 
+Preq is having C++ 9 for Python download the Microsoft Visual C++ 9.0 is required. Get it from [http://aka.ms/vcpython2](http://aka.ms/vcpython2)
+
 Make your way over to python.org, download and install the latest version (3.7 as of this writing) and make sure that wherever you install it, the directory containing python.exe is in your system PATH environment variable. I like to install it in the root of my C: drive, e.g. C:\Python37, so my PATH contains that directory.
 Once that's installed, you'll want to create a virtual environment, a lightweight, disposable, isolated python installation where you can experiment and install 3rd party libraries without affecting your "main" installation. To do this, open up a Powershell window, and enter the following commands (where "myenv" is the name of the virtualenv we're going to create, you can use any name you like for this):
 
