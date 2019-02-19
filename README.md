@@ -33,14 +33,18 @@ Once that's installed, you'll want to create a virtual environment, a lightweigh
 Open a Powershell windows 
 
 PS C:\> python -m venv myenv
+
 PS C:\> myenv\Scripts\activate
 
 Then, let's install jupyter and start up a notebook:
+
 PS C:\> pip install jupyter
+
 PS C:\> jupyter notebook
 
 Incidentally, if you get a warning about upgrading pip, make sure to use the following incantation to upgrade (to prevent an issue on windows where pip is unable to upgrade its own executable in-place):
 PS C:\> python -m pip install --upgrade pip
 
 Advantages: Uses "pure" python, official tools, and no external dependencies. Well supported, with plenty of online documentation and support communities.
+
 Disadvantages: While many popular data analysis or scientific python libraries can be installed by pip on windows (including Pandas and Matplotlib), some (for example SciPy) require a C compiler and the presence of 3rd party C libraries on the system which are difficult to install on Windows.
