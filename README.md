@@ -16,12 +16,12 @@ unzip gear_images.zip
 
 ## Running Notebooks 
 
-Running Notebooks on Azure Notebook Service see [Here](http://notebooks.azure.com) 
+Running Notebooks on Azure Notebook Service see [Here](https://notebooks.azure.com/?WT.mc_id=academic-0000-leestott) 
 
-This repo is available as Azure Notebooks [Here](https://notebooks.azure.com/LeeStott-Microsoft/projects/machinelearningchallenge)
+This repo is available as Azure Notebooks [Here](https://notebooks.azure.com/LeeStott-Microsoft/projects/machinelearningchallenge?WT.mc_id=academic-0000-leestott)
 
 Running the Notebook on Azure Data Science Virtual Machine 
-See [Here](https://blogs.msdn.microsoft.com/uk_faculty_connection/2018/12/10/microsoft-azure-notebooks-and-additional-compute-capacity-via-connecting-to-data-science-vms/)
+See [Here](https://blogs.msdn.microsoft.com/uk_faculty_connection/2018/12/10/microsoft-azure-notebooks-and-additional-compute-capacity-via-connecting-to-data-science-vms/?WT.mc_id=academic-0000-leestott)
 
 ## Running Notebooks on Windows Desktop 
 
@@ -51,4 +51,4 @@ Disadvantages: While many popular data analysis or scientific python libraries c
 
 ## Working with Jupyter Notebooks in Visual Studio Code
 
-See [https://code.visualstudio.com/docs/python/jupyter-support](https://code.visualstudio.com/docs/python/jupyter-support)
+See [https://code.visualstudio.com/docs/python/jupyter-support?WT.mc_id=academic-0000-leestott](https://code.visualstudio.com/docs/python/jupyter-support?WT.mc_id=academic-0000-leestott)
